@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Retail Realm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .header {
+        min-height: 70vh;
+        background-image: url('https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+        background-size: cover;
+        background-position: center;
+ display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+      }
+
+      .header h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+      }
+
+      .header p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .section {
+        padding: 100px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="row align-items-center text-center">
+          <div class="col">
+            <h1 class="display-4">Retail Realm</h1>
+            <p class="lead">The all-in-one ecommerce solution for businesses of all sizes.</p>
+            <button class="btn btn-success me-2" onclick="register()">Register</button>
+            <button class="btn btn-outline-secondary" onclick="login()">Login</button>
+          </div>
+        </div>
+      </header>
+    
+      <!-- Features Section -->
+      <section class="features py-5">
+        <h2 class="text-center mb-4">Features</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IM.jpg" class="card-img-top" alt="Feature 1">
+              <div class="card-body">
+                <h5 class="card-title">Inventory Management</h5>
+                <p class="card-text">Keep track of your inventory in real-time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="OM.jpg" class="card-img-top" alt="Feature 2">
+              <div class="card-body">
+                <h5 class="card-title">Order Management</h5>
+                <p class="card-text">Manage orders from multiple sales channels in one place.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="CM.jpg" class="card-img-top" alt="Feature 3">
+              <div class="card-body">
+                <h5 class="card-title">Customer Management</h5>
+                <p class="card-text">Keep track of customer data and order history.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Testimonials Section -->
+      <section class="testimonials py-5 bg-light">
+        <h2 class="text-center mb-4">Testimonials</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">"Great service and amazing features. Retail Realm has helped our business grow."</p>
+              <br>
+              <footer class="blockquote-footer">John Doe, <cite title="Company 1">Company 1</cite></footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">"Retail Realm has made managing our online store a breeze. Highly recommended!"</p>
+              <br>
+              <footer class="blockquote-footer">Jane Smith, <cite title="Company 2">Company 2</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Call-to-Action Section -->
+      <section class="cta py-5">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Ready to get started?</h2>
+            <p>Join Retail Realm today and take your business to the next level.</p>
+            <button class="btn btn-success" onclick="register()">Register Now</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <footer class="footer py-3 bg-dark text-white">
+        <div class="container">
+          <p class="text-center mb-0">&copy; 2023 Retail Realm. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
