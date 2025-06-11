@@ -1,4 +1,4 @@
-# Personal Portfolio Site
+# Portfolio Site
 
 This is my personal portfolio site, showcasing my skills, projects, and experience as a web developer. The site is built using HTML, CSS, and JavaScript, and it is designed to be mobile-responsive, ensuring a seamless user experience across different devices and screen sizes.
 
